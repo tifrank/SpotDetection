@@ -1,0 +1,8 @@
+Specification of doDiagnosis 
+
+dD1 Input must be Result from Spot detection, boolean Form
+dD2 pathogen mapping must be loaded
+dD3 A test if extraction control (spots 1,10,23) and extraction control (18,13) are abundant, if not test is invalid and stored in result 
+dD4 If test is valid, a pathogen is positiv, both corresponding spots are positiv and stored in result 
+dD5 If no pathogen is positiv, test is negativ and stored in result. 
+dD6 doDiagnosis shall return patient result
